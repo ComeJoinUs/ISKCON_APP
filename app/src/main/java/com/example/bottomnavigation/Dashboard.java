@@ -38,9 +38,9 @@ public class Dashboard extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.about:
+                    case R.id.search:
                         startActivity(new Intent(getApplicationContext()
-                                ,About.class));
+                                , Search.class));
 
                         //overridePendingTransition(int enterAnim: 0,int exitAnim: 0);
                         overridePendingTransition(0,0);
